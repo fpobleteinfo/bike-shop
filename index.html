@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prueba CSS Avanzado | Bike Shop Project</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <aside>
+        <div class="logo-area">
+          <i class="fa-solid far fa-bicycle fa-logo fa-2x"></i>
+          <h3>Bike Shop Project</h3>
+          <i id="aw-bars" class="fa-solid far fa-bars fa-2x"></i>
+        </div>
+        <menu class="listado-menu">
+          <li><a href="#galeria">Nuestras Bicicletas</a></li>
+          <li><a href="#rutas">Rutas Recomendadas</a></li>
+          <li><a href="#contacto">Formulario Contacto</a></li>
+        </menu>
+      </aside>
+
+      <section class="galeria">
+        <h2 id="galeria">Galeria</h2>
+        <div class="mis-imagenes">
+          <div class="espacio">
+            <img class="img1" src="assets/img/item1.jpg" alt="item1" />
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="espacio">
+            <img class="img2" src="assets/img/item2.jpg" alt="item2" />
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="espacio">
+            <img class="img3" src="assets/img/item3.jpg" alt="item3" />
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="espacio">
+            <img class="img4" src="assets/img/item4.jpg" alt="item4" />
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="espacio">
+            <img class="img5" src="assets/img/item5.jpg" alt="item5" />
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="espacio">
+            <img class="img6" src="assets/img/item6.jpg" alt="item6" />
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="espacio">
+            <img class="img7" src="assets/img/item7.jpg" alt="item7" />
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="espacio">
+            <img class="img8" src="assets/img/item8.jpg" alt="item8" />
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="espacio">
+            <img class="img9" src="assets/img/item9.jpg" alt="item9" />
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="espacio">
+            <img class="img10" src="assets/img/item10.jpg" alt="item10" />
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="rutas">
+        <h2 id="rutas">Rutas Recomendadas</h2>
+        <div class="mis-rutas">
+          <div class="tarjeta">
+            <div class="imagen">
+              <img src="assets/img/ruta1.jpg" alt="ruta1" />
+            </div>
+            <div class="tarjeta-item">
+              <h4>Ruta Cerro</h4>
+              <p class="descripcion-item">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                voluptatem odio.
+              </p>
+              ⭐⭐⭐⭐⭐ (6)
+              <button>Agendar</button>
+            </div>
+          </div>
+
+          <div class="tarjeta">
+            <div class="imagen">
+              <img src="assets/img/ruta1.jpg" alt="ruta3" />
+            </div>
+            <div class="tarjeta-item">
+              <h4>Ruta Bares</h4>
+              <p class="descripcion-item">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                voluptatem odio.
+              </p>
+              ⭐⭐⭐⭐⭐ (5)
+              <button>Agendar</button>
+            </div>
+          </div>
+
+          <div class="tarjeta">
+            <div class="imagen">
+              <img src="assets/img/ruta3.jpg" alt="ruta4" />
+            </div>
+            <div class="tarjeta-item">
+              <h4>Ruta Historica</h4>
+              <p class="descripcion-item">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                voluptatem odio.
+              </p>
+              ⭐⭐⭐⭐⭐ (15)
+              <button>Agendar</button>
+            </div>
+          </div>    
+          
+          <div class="tarjeta">
+            <div class="imagen">
+              <img src="assets/img/ruta3.jpg" alt="ruta1" />
+            </div>
+            <div class="tarjeta-item">
+              <h4>Ruta Clásica</h4>
+              <p class="descripcion-item">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                voluptatem odio.
+              </p>
+              ⭐⭐⭐ (2)
+              <button>Agendar</button>
+            </div>
+          </div>            
+        </div>
+      </section>
+
+      <section class="contactanos">
+        <h2 id="contacto">Formulario de Contacto</h2>
+        <div class="form-contact">
+          <label>Nombre</label>
+          <input type="text" class="input-enfasis" placeholder="Nombre">
+          <label>Mail</label>
+          <input type="text" class="input-enfasis" placeholder="Correo Electronico">
+          <label>Mensaje</label>
+          <textarea rows="4" cols="50" class="input-enfasis" placeholder="Escriba su mensaje..."></textarea>         
+          <button class="boton-enviar">Enviar</button>
+        </div>
+      </section>
+
+      <footer class="mi-footer">
+        <div class="contacto">
+          <h3>Fono Ruta:</h3>
+          <p><i class="fa-solid fa-phone aw-space"></i>56 (2) 989 7702</p>
+          <p><i class="fa-solid fa-phone aw-space"></i>56 (2) 989 7703</p>
+        </div>
+        <div class="socials">
+          <h3>Encuentranos en redes sociales:</h3>
+          <p>
+            <a href="http://instagram.com/"
+              ><i class="fa-brands fa-instagram aw-space fa-2x"></i
+            ></a>
+          </p>
+          <p>
+            <a href="http://fb.com/"
+              ><i class="fa-brands fa-facebook aw-space fa-2x"></i
+            ></a>
+          </p>
+        </div>
+        <h3>(c) Felipe Poblete 2023</h3>
+      </footer>
+    </div>
+  </body>
+</html>
