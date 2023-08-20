@@ -110,7 +110,9 @@ menu {
 
 .contactanos{
   grid-area: contacto;
-  background-image: url('/assets/img/bg1.jpg');
+  background-image: url('/assets/img/bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
 }
 
